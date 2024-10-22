@@ -1,0 +1,183 @@
+html {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    margin: 0px;
+}
+
+.navbar,
+footer,
+.presentation {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    width: 100%;
+}
+
+.navbar-box,
+.presentation-box,
+.section1,
+.section2-box,
+.call-to-action {
+    max-width: 900px;
+    display: flex;
+    margin: auto;
+}
+
+.navbar-box {
+    justify-content: space-between;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.navbar li {
+    margin: auto 2vmin;
+}
+
+.navbar a {
+    color: #E5E7EB;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.presentation-box,
+.section2-box,
+.call-to-action {
+    padding-top: 13vmin;
+    padding-bottom: 13vmin;
+}
+
+.presentation-text {
+    color: #F9FAF8;
+    flex: 1 1 0;
+}
+
+.presentation-text h1 {
+    font-size: 48px;
+    font-weight: 900;
+    margin: 0px;
+}
+
+.presentation-text p {
+    margin: 0px;
+}
+
+.presentation-image {
+    display: flex;
+    color: #F9FAF8;
+    min-height: 13vmax;
+    flex: 1 1 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.presentation-image img {
+    max-width: 100%;
+    border-radius: 2vmin;
+}
+
+.presentation-button,
+.cta-button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    width: 12vmin;
+    height: 4vmin;
+    border-radius: 1vmin;
+    font-weight: 700;
+    border: 0;
+}
+
+.presentation-button {
+    margin-top: 3vmin;
+}
+
+.section1 {
+    flex-direction: column;
+    margin-bottom: 35px;
+}
+
+.section1-title {
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.section1-images {
+    display: flex;
+}
+
+.section1-image {
+    flex-direction: row;
+    margin: 3vmin;
+}
+
+.section1-image img {
+    border: #3882F6 solid 5px;
+    border-radius: 2vmin;
+    max-width: 100%;
+}
+
+.section1-image p {
+    text-align: center;
+    color: #1F2937;
+}
+
+.section2 {
+    background-color: #E5E7EB;
+}
+
+.section2-box {
+    flex-direction: column;
+    padding-top: 50px;
+}
+
+.testimonial-quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+    margin-bottom: 0px;
+
+}
+
+.testimonial-citation {
+    margin-top: 0px;
+    font-weight: bold;
+    font-style: none;
+    text-align: right;
+}
+
+.cta-box {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 5vmin;
+    padding-bottom: 5vmin;
+    border-radius: 2vmin;
+}
+
+.cta-button {
+    border: #F9FAF8 solid 2px;
+
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    padding-block: 30px;
+}
